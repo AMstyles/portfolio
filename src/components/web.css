@@ -1,0 +1,67 @@
+.web{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    background-color: black;
+}
+
+.animation{
+    width: 50vw;
+}
+
+.content{
+   width: 50vw;
+ padding: auto;
+ margin: auto;
+}
+
+.tittle{
+    color: blue;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.gradient-text-web{
+    background: -webkit-linear-gradient(yellow, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.webText{
+    color: orange;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    
+  
+}
+
+
+@media screen and (max-width: 960px) {
+    .animation{
+        display: none;
+    }
+
+    .content{
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .webText{
+        font-size: 2rem;
+        
+    }
+}

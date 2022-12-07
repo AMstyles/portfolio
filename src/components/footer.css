@@ -1,0 +1,52 @@
+.footer{
+    background-color: black;
+}
+
+.line{
+    width: 95vw;
+    height: 1px;
+    background-color: grey;
+    justify-self: center;
+    margin: auto;
+   
+
+}
+
+.footer-content{
+display: flex;
+flex-direction: row;
+background-color: black;
+justify-content: center
+
+}
+
+.footer-content1{
+    color: white;
+    margin: auto;
+}
+
+.footer-content2{
+    color: white;
+    margin: auto;
+}
+
+.rick{
+    color: white;
+}
+
+.copyright{
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}
+
+@media screen and (max-width: 960px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+

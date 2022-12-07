@@ -1,38 +1,361 @@
 .App {
+text-align: center;
+}
+
+.body{
+
+
+}
+
+
+
+.socialmediaBody
+{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+   
+}
+
+.tools{
+  display: flex;
+  background-color: black;
+}
+
+
+.riveAnime{
+  align-self: center;
+  background-color: black;
+    display: flex;
+    list-style: none;
+    height: 100vh;
+    width: 50vw;
+    z-index: 0;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50vw;
+  background-color: black;
+  z-index: 1;
+}
+
+.techStack{
+  margin: auto;
+  background-color: black;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  right: 0;
+  padding: 20px 20px;
+}
+
+.header-text{
+  color: white;
+  font-size: 3rem;
+
+}
+
+.gradient-text1{
+  background: -webkit-linear-gradient(red, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  justify-self: center;
+}
+
+.react-logo{
+  margin: auto;
+  height: 200px;
+}
+.flutter-logo{
+  margin: auto;
+  height: 200px;
+}
+
+.texts{
+  color: white;
+  font-size: 2.5rem;
+}
+
+.gradient-text-react{
+  font-size: 4rem;
+  background: -webkit-linear-gradient(red, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-flutter{
+  font-size: 4rem;
+  background: -webkit-linear-gradient(blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.socials{
+  margin: auto;
+  padding-bottom: 10vh;
+
+  
+}
+
+.title{
+
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   text-align: center;
+  margin: auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 960px) {
+  .tools{
+  
+    background-color: black;
+    height: 100vw;
   }
+  
+  
+  .riveAnime{
+    background-color: black;
+      display: none;
+  }
+  
+  .logos{
+    display: none;
+    background-color: black;
+  }
+  
+  .techStack{
+    margin: auto;
+    background-color: black;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+  
+  .header-text{
+    color: white;
+    font-size: 2rem;
+  
+  }
+
+  .texts{
+    font-size: 2rem;
+  }
+  
+  .gradient-text1{
+    background: -webkit-linear-gradient(red, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .logos{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-self: center;
+  }
+  
+  .react-logo{
+    margin: auto;
+    height: 70px;
+  }
+  .flutter-logo{
+    margin: auto;
+    height: 60px;
+  }
+
+
+  .gradient-text1{
+    background: -webkit-linear-gradient(red, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .logos{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-self: center;
+  }
+  
+  .react-logo{
+    margin: auto;
+  }
+  .flutter-logo{
+    margin: auto;
+  }
+  
+  .texts{
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .gradient-text-react{
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(red, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .gradient-text-flutter{
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .socials{
+    margin: auto;
+    padding-bottom: 10vh;
+  
+    
+  }
+  
+  .title{
+  
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  
+  
+  }
+  
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.sec{
+  background-color: black;
+}
+.rest {
+
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+/* dd */
+
+#home {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("./images/dark_full.jpg") no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  display: flex;
+  flex-direction: column;
+  /*border:1px solid white;*/
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+
+.headings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.btn {
+  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-color: rgba(240, 240, 255, 1);
+  cursor: pointer;
+  color: black;
+  box-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 15px blue;
 }

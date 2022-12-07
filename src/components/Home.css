@@ -1,0 +1,5 @@
+.gradient-text-home1{
+    background: -webkit-linear-gradient(grey ,  white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
