@@ -1,4 +1,4 @@
-.web{
+.web {
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -8,21 +8,21 @@
     background-color: black;
 }
 
-.animation{
+.animation {
     width: 50vw;
 }
 
-.content{
-   width: 50vw;
- padding: auto;
- margin: auto;
+.content {
+    width: 50vw;
+    padding: auto;
+    margin: auto;
 }
 
-.tittle{
+.tittle {
     color: blue;
     font-weight: bold;
     font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 100;
     text-align: center;
     margin: auto;
@@ -30,38 +30,33 @@
     padding-bottom: 10vh;
 }
 
-.gradient-text-web{
+.gradient-text-web {
     background: -webkit-linear-gradient(yellow, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-
-.webText{
+.webText {
     color: orange;
     font-weight: bold;
     font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     text-align: center;
     margin: auto;
-    
-  
 }
 
-
 @media screen and (max-width: 960px) {
-    .animation{
+    .animation {
         display: none;
     }
 
-    .content{
+    .content {
         width: 100vw;
         padding: 10px;
     }
 
-    .webText{
+    .webText {
         font-size: 2rem;
-        
     }
 }

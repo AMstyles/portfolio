@@ -1,5 +1,5 @@
 import React from "react";
-import "./web.css";
+import "./web.scss";
 import Rive from 'rive-react'
 
 function Web() {

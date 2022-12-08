@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./footer.scss";
 
 function Footer() {
     return (
@@ -20,7 +20,7 @@ function Footer() {
                     </p>
                     <p>
                         <a href="
-                    https://www.linkedin.com/in/arinaho-muleba-5b1b1b1b3/
+                    https://www.linkedin.com/in/arinaho-muleba-3b4753216/
                     ">LinkedIn</a>
                     </p>
                     <p>

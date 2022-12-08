@@ -1,5 +1,5 @@
 import React from "react";
-import "./flutter.css";
+import "./flutter.scss";
 
 
 import Rive from 'rive-react'
@@ -14,9 +14,9 @@ function Flutter() {
                 </h1>
 
                 <p className="flutterText">
-                    I am a full stack excellent <span className="gradient-text">Flutter</span>  developer with 2 years experience in Dart, Flutter, and Firebase. I am a fast learner and I am always looking to improve my skills. I am super strong with flutter 💪, I'm talking Dragon Ball Z super saiyan strong.😄
+                    I am a full stack excellent <span className="gradient-text">Flutter</span>  developer with 2 years experience in Dart, Flutter, and Firebase.  I am super strong with flutter 💪, I'm talking Dragon Ball Z super saiyan strong.😄
                 </p>
-                <p className='apps' > I recently redesigned these <a className="appLink" href=""> android </a> and <a className="appLink" href=""> iOS</a>  I also have a lot more cool Flutter Projects on my <a className="appLink" href="">Github</a>.</p>
+                <p className='apps' > I recently redesigned these <a className="appLink" href=""> android </a> and <a className="appLink" href=""> iOS</a>  I also have a lot more cool Flutter Projects on my <a className="appLink" href="'https://github.com/AMstyles'">Github</a></p>
 
                 <div className="platforms">
                     <img className="android" src="android-logo.svg" alt="android" />

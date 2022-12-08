@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavBar.css";
+import "./NavBar.scss";
 
 function NavBar() {
     return (
@@ -7,22 +7,22 @@ function NavBar() {
             <ul>
                 <li><a href="#home">
                     <span className="material-icons">
-                        home
+                        HOME
                     </span>
                 </a></li>
 
                 <li><a href="#socialmedia"><span className="material-icons"  >
-                    person
+                    TOOLS
                 </span>
                 </a></li>
 
                 <li><a href="#services"><span className="material-icons">
-                    business
+                    SERVICES
                 </span>
                 </a></li>
 
                 <li><a href="#"><span className="material-icons">
-                    contact_mail
+                    CONTACT
                 </span>
                 </a></li>
             </ul>
