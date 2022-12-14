@@ -7,7 +7,7 @@ function Web() {
         <div className="web">
 
             <div className="animation">
-                <Rive src="flutter-animation.riv" stateMachines="birb" />
+                <Rive src="planet.riv" />
             </div>
 
             <div className='content'>

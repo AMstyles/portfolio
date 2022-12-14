@@ -1,5 +1,11 @@
-.gradient-text-home1{
-    background: -webkit-linear-gradient(grey ,  white);
+.gradient-text-home1 {
+    background: -webkit-linear-gradient(white, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.home {
+    .animation {
+        height: 100px;
+    }
 }

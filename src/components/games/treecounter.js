@@ -15,6 +15,7 @@ function Counter() {
 
         </div>
         <div className="content">
+            <Te
 
         </div>
 

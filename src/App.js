@@ -6,6 +6,7 @@ import Web from './components/web';
 import Flutter from './components/flutter';
 import Footer from './components/footer';
 import TechStack from './components/techStack';
+import Games from './components/games/games';
 
 function Services() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Home />
         <TechStack />
         <Services />
+        <Games />
         <Footer />
       </body>
     </div>
