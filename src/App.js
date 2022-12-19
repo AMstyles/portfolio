@@ -7,6 +7,7 @@ import Flutter from './components/flutter';
 import Footer from './components/footer';
 import TechStack from './components/techStack';
 import Games from './components/games/games';
+import { Parallax, ParallaxLayer, parallaxLayer } from '@react-spring/parallax';
 
 function Services() {
   return (
@@ -26,14 +27,15 @@ function App() {
 
 
     <div className="App">
-      <body className='body'>
-        <NavBar />
-        <Home />
-        <TechStack />
-        <Services />
-        <Games />
-        <Footer />
-      </body>
+
+
+      <NavBar />
+      <Home />
+      <TechStack />
+      <Services />
+      <Games />
+      <Footer />
+
     </div>
   );
 }

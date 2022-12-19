@@ -48,7 +48,7 @@ function Flutter() {
 
             </div>
 
-            <div className="animation" onMouseEnter={() => onHoverInput1.value(1)}>
+            <div className="animation" onMouseEnter={() => onHoverInput1.value = true} onMouseLeave={() => onHoverInput1.value = false}>
                 <RiveComponent />
             </div>
 

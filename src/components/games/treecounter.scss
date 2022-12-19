@@ -4,4 +4,82 @@
     background-color: black;
     display: flex;
     flex-direction: row;
+    .animation {
+    }
+
+    .content {
+        .texts {
+        }
+
+        .actions {
+            .btnd {
+                width: 100px;
+            }
+            .btni {
+                width: 100px;
+            }
+
+            .autoShrink {
+            }
+
+            /* CSS */
+            .autoGrow {
+                background-color: #ea4c89;
+                border-radius: 8px;
+                border-style: none;
+                box-sizing: border-box;
+                color: #ffffff;
+                cursor: pointer;
+                display: inline-block;
+                font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                height: 40px;
+                line-height: 20px;
+                list-style: none;
+                margin: 0;
+                outline: none;
+                padding: 10px 16px;
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+                transition: color 100ms;
+                vertical-align: baseline;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+            }
+
+            .autoGrow:hover,
+            .autoGrow:focus {
+                background-color: #f082ac;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        .texts {
+            .par {
+                display: none;
+            }
+        }
+        .animation {
+        }
+    }
+    .animation {
+    }
+    .texts {
+        display: none;
+    }
+    .actions {
+        display: none;
+    }
+
+    .animation {
+        height: 100%;
+    }
 }
