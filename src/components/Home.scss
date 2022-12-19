@@ -8,4 +8,16 @@
     .animation {
         height: 100px;
     }
+    .btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .home {
+        .btn {
+            display: flex;
+            margin-top: 15px;
+        }
+    }
 }

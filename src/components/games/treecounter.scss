@@ -1,30 +1,69 @@
 .container {
+    //z-index: 10;
     width: 100vw;
     height: 100vh;
     background-color: black;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     .animation {
     }
 
     .content {
+        display: none;
+        height: 100%;
+        color: #ea4c89;
+        //background-color: #f082ac;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+
+        .animation2 {
+            display: none;
+            height: 100%;
+            width: 100%;
+        }
+
         .texts {
+            .header {
+              
+                background: linear-gradient(180deg, #ea4c89, #f082ac);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .sub-header {
+                font-weight: 600;
+                font-size: large;
+            }
+            .par {
+                font-weight: lighter;
+                font-size: small;
+                .protip {
+                    background: linear-gradient(0deg, #ea4c89, #f082ac);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-weight: bolder;
+                }
+            }
+            .height {
+                width: 100vw;
+                //background-color: blue;
+                font-size: 200px;
+            }
         }
 
         .actions {
-            .btnd {
-                width: 100px;
-            }
-            .btni {
-                width: 100px;
-            }
-
-            .autoShrink {
-            }
+            //background-color: blueviolet;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
 
             /* CSS */
-            .autoGrow {
-                background-color: #ea4c89;
+            .btni {
+                margin: 0 10px;
+                //green gradient background
+                background: linear-gradient(90deg, #21eb43, #82f0b0);
                 border-radius: 8px;
                 border-style: none;
                 box-sizing: border-box;
@@ -37,49 +76,163 @@
                 height: 40px;
                 line-height: 20px;
                 list-style: none;
-                margin: 0;
                 outline: none;
                 padding: 10px 16px;
                 position: relative;
                 text-align: center;
                 text-decoration: none;
+                font-weight: bolder;
+                font-size: 2rem;
                 transition: color 100ms;
                 vertical-align: baseline;
                 user-select: none;
                 -webkit-user-select: none;
                 touch-action: manipulation;
-            }
+                width: 100px;
 
-            .autoGrow:hover,
-            .autoGrow:focus {
-                background-color: #f082ac;
+                .btnd:hover,
+                .btnd:focus {
+                    background-color: #f082ac;
+                }
             }
+        }
+
+        .btnd {
+            //create a gradient background
+            background: linear-gradient(90deg, #ea4c89, #f082ac);
+            border-radius: 8px;
+            border-style: none;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 2rem;
+            list-style: none;
+            margin: 0 10px;
+            height: 40px;
+            outline: none;
+            position: relative;
+            width: 100px;
         }
     }
 }
 
 @media screen and (max-width: 960px) {
     .container {
+        z-index: 10;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
         display: flex;
-        flex-direction: column;
-        .texts {
-            .par {
-                display: none;
+        flex-direction: direction;
+        justify-content: unset;
+        .animation {
+            height: 90%;
+            display: none;
+        }
+
+        .content {
+            //height: 100%;
+            justify-content: space-around;
+            display: flex;
+            flex-direction: column;
+
+            .texts {
+                .header {
+                    padding: 0;
+                    width: 100%;
+                    background: linear-gradient(90deg, #ea4c89, #f082ac);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-size: 4.5rem;
+                    font-weight: bolder;
+                }
+                .sub-header {
+                    display: none;
+                    font-weight: 600;
+                    font-size: large;
+                }
+                .par {
+                    display: none;
+                    font-weight: lighter;
+                    font-size: small;
+                }
+                .height {
+                    width: 100vw;
+
+                    font-size: 200px;
+                }
+            }
+
+            .actions {
+                //background-color: blueviolet;
+                height: 10%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 100%;
+
+                /* CSS */
+                .btni {
+                    margin: 0 10px;
+                    //green gradient background
+                    background: linear-gradient(90deg, #21eb43, #82f0b0);
+                    border-radius: 8px;
+                    border-style: none;
+                    box-sizing: border-box;
+                    color: #ffffff;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    height: 40px;
+                    line-height: 20px;
+                    list-style: none;
+
+                    outline: none;
+                    padding: 10px 16px;
+                    position: relative;
+                    text-align: center;
+                    text-decoration: none;
+                    font-weight: bolder;
+                    font-size: 2rem;
+                    transition: color 100ms;
+                    vertical-align: baseline;
+                    user-select: none;
+                    -webkit-user-select: none;
+                    touch-action: manipulation;
+                    width: 100px;
+
+                    .btnd:hover,
+                    .btnd:focus {
+                        background-color: #f082ac;
+                    }
+                }
+            }
+
+            .btnd {
+                //create a gradient background
+                background: linear-gradient(90deg, #ea4c89, #f082ac);
+                border-radius: 8px;
+                border-style: none;
+                box-sizing: border-box;
+                color: #ffffff;
+                cursor: pointer;
+                display: inline-block;
+                font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                text-align: center;
+                font-weight: bolder;
+                font-size: 2rem;
+                list-style: none;
+                margin: 0 10px;
+                outline: none;
+                position: relative;
+                width: 100px;
             }
         }
-        .animation {
-        }
-    }
-    .animation {
-    }
-    .texts {
-        display: none;
-    }
-    .actions {
-        display: none;
-    }
-
-    .animation {
-        height: 100%;
     }
 }
