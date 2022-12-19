@@ -20,15 +20,19 @@ export default function Home() {
                     <h1 className="headings"> <span className="gradient-text-home1" >ARINAHO MULEBA </span></h1>
                     <p> Like my work, wanna hire me?</p>
 
-                    {/* <button className="btn">
-                        Hire me
-                    </button> */}
+
                     <div className="animation" onClick={() => { console.log('You\'re hired') }}>
                         <a href="mailto:arinaomuleluz@gmail.com">
                             <RiveComponent />
                         </a>
 
                     </div>
+                    <a href="mailto:arinaomuleluz@gmail.com">
+
+                        <button className="btn">
+                            Hire me
+                        </button>
+                    </a>
                 </div>
             </section>
         </div>
