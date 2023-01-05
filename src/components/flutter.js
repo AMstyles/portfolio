@@ -1,7 +1,6 @@
 import React from "react";
 import "./flutter.scss";
 import { useRive, useStateMachineInput } from 'rive-react'
-import Rive from 'rive-react'
 
 function Flutter() {
 

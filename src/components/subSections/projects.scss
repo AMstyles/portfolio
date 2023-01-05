@@ -1,0 +1,135 @@
+.projects {
+    width: 100%;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    padding: 10vmin 0;
+
+    .project {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+
+        .project-header {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .project-title {
+                font-size: 3rem;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            color: white;
+        }
+    }
+
+    //decalare the aspect ratio of the cards
+
+    .card-group,
+    .card {
+        aspect-ratio: 9/19.5;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card-group,
+    .big-card {
+        width: 30vmin;
+        .photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 3vmin;
+        }
+    }
+
+    .card {
+        color: white;
+        background-color: rgba($color: white, $alpha: 0.1);
+        position: absolute;
+        transition: transform 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    }
+
+    .big-card {
+        width: 30vmin;
+        border-radius: 1vmin;
+    }
+
+    .small-card {
+        width: 12vmin;
+        border-radius: 3vmin;
+        display: none;
+    }
+
+    .big-card:nth-child(2) {
+        //translate and rotate the card
+        transform: translate(-10%, 0) rotate(-1deg);
+
+        //background-image: url("3.PNG");
+
+        //center background image
+    }
+
+    .big-card:nth-child(4) {
+        transform: rotate(2deg);
+
+        //background-image: url("2.PNG");
+    }
+
+    .big-card:nth-child(6) {
+        transform: translate(-6%) rotate(-3deg);
+
+        // background-image: url("4.PNG");
+    }
+    .big-card:nth-child(8) {
+        transform: translate(-3%, 0) rotate(5deg);
+        //background-image: url("1.PNG");
+
+        //big cards hover effect
+    }
+
+    //create hover effect for the cards
+
+    .card-group:hover > .big-card:nth-child(2) {
+        transform: translate(-110%, 16%) rotate(-20deg);
+    }
+
+    .card-group:hover > .big-card:nth-child(2) {
+        transform: translate(-110%, 16%) rotate(-20deg);
+    }
+
+    .card-group:hover > .big-card:nth-child(4) {
+        transform: translate(-35%, 8%) rotate(-8deg);
+    }
+
+    .card-group:hover > .big-card:nth-child(6) {
+        transform: translate(35%, 8%) rotate(8deg);
+    }
+
+    .card-group:hover > .big-card:nth-child(8) {
+        transform: translate(100%, 14%) rotate(20deg);
+    }
+
+    //small cards hover effectt
+
+    .card-group:hover > .small-card:nth-child(1) {
+        transform: translate(75%, 15) rotate(20deg);
+    }
+    .card-group:hover > .small-card:nth-child(3) {
+        transform: translate(75%, 15) rotate(20deg);
+    }
+    .card-group:hover > .small-card:nth-child(5) {
+        transform: translate(75%, 15) rotate(20deg);
+    }
+    .card-group:hover > .small-card:nth-child(7) {
+        transform: translate(75%, 15) rotate(20deg);
+    }
+}

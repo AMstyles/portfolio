@@ -33,8 +33,7 @@ function TechStack() {
                             <span className='gradient-text-react'> React </span> and
                             <span className='gradient-text-flutter'> Flutter </span>
                             because they have cool names and blue logos 😎.
-                            And also because I need money to pay for my bills and food🥲.By bills and food I mean my wife's G-Wagon. 🚙
-
+                            Just kidding, I chose them because they are the most popular and widely used frameworks in the industry. I also like the fact that they are both open source and have a huge community.
                         </p>
                     </div>
 
