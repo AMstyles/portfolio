@@ -149,10 +149,6 @@ function Projects() {
         }
     ])
 
-
-
-
-
     return (
 
         <div className="projects">
@@ -173,7 +169,6 @@ function Projects() {
                             color: 'white',
                         }
                     }>
-
                         {project.description}
                         To get source code on my github, click{' '}
 
@@ -182,7 +177,6 @@ function Projects() {
                                 color: 'blue',
                                 textDecoration: 'underline',
                                 cursor: 'pointer'
-
                             }
                         }>  here</a>
                     </p>
